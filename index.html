@@ -58,9 +58,8 @@
     }
 
     .slide-image {
-      width: 350px;
+      max-width: 100%;
       height: auto;
-      max-height: 90%;
       margin-top: 2rem;
       position: relative;
       z-index: 2;
@@ -76,7 +75,7 @@
         0 0 50px white,
         0 0 75px white,
         0 0 100px white;
-      margin-bottom: 2rem;
+      margin-right: 2rem;
       overflow: hidden;
     }
 
@@ -171,12 +170,12 @@
     </section>
 
     <!-- Slide 2 -->
-    <section class="slide">
-      <h2>Month 1 — The Beginning 💖</h2>
+    <section class="slide" style="flex-direction: row;">
       <div class="video-wrapper">
         <video src="assets/slide2-video.mp4" autoplay loop muted></video>
       </div>
       <div class="slide-content">
+        <h2>Month 1 — The Beginning 💖</h2>
         <p>Our sweet start, full of hope and warm glances.</p>
       </div>
       <div class="glitter-container"></div>
